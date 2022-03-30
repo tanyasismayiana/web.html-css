@@ -1,0 +1,59 @@
+body{
+    /* background-image: url("image/back.jpeg"); */
+    background-position: top;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-color: pink;
+}
+.search a:hover{
+    width: 10%;
+    float: right;
+    margin-left: 80%;
+}
+
+    table{
+        width: 1000px ;
+        height: 200px;
+    }
+    th{
+        text-align: left;
+    }
+    table,th,td{
+        border: 5px solid rgb(6, 14, 5);
+        border-collapse:collapse;  
+    }
+    th,td{
+        padding: 10px;
+    }
+    tr:nth-child(even){background-color: rgb(241, 241, 247);
+    }
+    tr:nth-child(odd){background-color:rgb(229, 229, 235)
+     }
+     .navbar ul{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        margin-left: 70%;
+        
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: rgb(19, 4, 4);
+            width: 100px;
+            display: block;
+            padding: 25px 20px;
+            font-size: 15px;
+            text-transform: uppercase;
+            font-weight: bold;
+            
+        }
+        .card-group {
+            margin-top: 5%;
+        }
+        .card{
+            margin: 2%;
+        }
